@@ -1,5 +1,5 @@
-# Use ubuntu artful as parent image
-FROM ubuntu:artful
+# Use ubuntu zesty as parent image
+FROM ubuntu:zesty
 # Set maintainer
 LABEL maintainer="Laurens Sion <laurens@sion.info>"
 
