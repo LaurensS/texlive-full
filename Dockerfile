@@ -1,5 +1,5 @@
-# Use ubuntu artful as parent image
-FROM ubuntu:artful
+# Use ubuntu xenial as parent image
+FROM ubuntu:xenial
 # Set maintainer
 LABEL maintainer="Laurens Sion <laurens@sion.info>"
 
