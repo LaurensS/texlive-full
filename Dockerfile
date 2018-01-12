@@ -1,5 +1,5 @@
-# Use ubuntu artful as parent image
-FROM ubuntu:artful
+# Use ubuntu trusty as parent image
+FROM ubuntu:trusty
 # Set maintainer
 LABEL maintainer="Laurens Sion <laurens@sion.info>"
 
