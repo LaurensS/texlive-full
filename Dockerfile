@@ -8,9 +8,10 @@ WORKDIR /data
 VOLUME /data
 
 # Update and install texlive-full
-RUN apt-get update -q
-RUN apt-get install -qy texlive-full make
-RUN apt-get clean
+RUN apt-get update -q && \
+    apt-get install -qy texlive-full make && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/* 
 
 # Set working directory
 WORKDIR /data
