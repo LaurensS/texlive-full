@@ -13,6 +13,3 @@ RUN apt-get update -q && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* 
 
-# Set working directory
-WORKDIR /data
-VOLUME ["/data"]
