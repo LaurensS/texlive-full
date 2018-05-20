@@ -1,5 +1,5 @@
-# Use ubuntu artful as parent image
-FROM ubuntu:artful
+# Use ubuntu bionic as parent image
+FROM ubuntu:bionic
 # Set maintainer
 LABEL maintainer="Laurens Sion <laurens@sion.info>"
 
