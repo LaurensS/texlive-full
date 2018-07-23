@@ -1,5 +1,5 @@
-# Use ubuntu bionic as parent image
-FROM ubuntu:bionic
+# Use ubuntu cosmic as parent image
+FROM ubuntu:cosmic
 # Set maintainer
 LABEL maintainer="Laurens Sion <laurens@sion.info>"
 
