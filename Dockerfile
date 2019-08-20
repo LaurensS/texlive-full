@@ -1,5 +1,5 @@
-# Use ubuntu cosmic as parent image
-FROM ubuntu:cosmic
+# Use ubuntu disco as parent image
+FROM ubuntu:disco
 # Set maintainer
 LABEL maintainer="Laurens Sion <laurens@sion.info>"
 
