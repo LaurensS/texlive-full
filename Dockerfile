@@ -9,7 +9,7 @@ VOLUME /data
 
 # Update and install texlive-full
 RUN apt-get update -q && \
-    DEBIAN_FRONTEND=noninteractive apt-get install -qy texlive-full make git && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -qy texlive-full make git openjdk-8-jre-headless rubber scons && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* 
 
