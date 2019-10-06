@@ -1,5 +1,5 @@
-# Use ubuntu disco as parent image
-FROM ubuntu:disco
+# Use ubuntu eoan as parent image
+FROM ubuntu:eoan
 # Set maintainer
 LABEL maintainer="Laurens Sion <laurens@sion.info>"
 
