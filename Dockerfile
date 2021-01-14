@@ -1,5 +1,5 @@
 # Use ubuntu eoan as parent image
-FROM ubuntu:eoan
+FROM ubuntu:latest
 # Set maintainer
 LABEL maintainer="Laurens Sion <laurens@sion.info>"
 
